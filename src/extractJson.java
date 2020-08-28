@@ -16,6 +16,7 @@ public class extractJson {
 	CustomerDetailsAppium c=o.readValue(new File("C:\\Home\\Learn\\Testing\\SDET\\project\\JsonJava\\customerInfo0.json"), CustomerDetailsAppium.class);
 	
 	System.out.println(c.getCourseName());
+	System.out.println("Jai shri Krishna");
 	c.getStudentName();
 	//validate records in webtable are correct or not
 	//getText() Appium
