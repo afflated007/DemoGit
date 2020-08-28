@@ -68,6 +68,7 @@ String finalstring=string1.replace("}\"", "}");
 System.out.println(finalstring);
 System.out.println("Jai Shiva");
 System.out.println("ram ram");
+System.out.println("siya ram");
 try (FileWriter file = new FileWriter("C:\\Home\\Learn\\Testing\\SDET\\project\\JsonJava\\SingleJson.json")) {
 	file.write(finalstring);
 	
