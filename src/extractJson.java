@@ -17,6 +17,7 @@ public class extractJson {
 	
 	System.out.println(c.getCourseName());
 	System.out.println("Jai shri Krishna");
+	System.out.println("Jai shri Ram");
 	c.getStudentName();
 	//validate records in webtable are correct or not
 	//getText() Appium

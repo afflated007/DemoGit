@@ -66,6 +66,7 @@ System.out.println(unescapeString);
 String string1=unescapeString.replace("\"{", "{");
 String finalstring=string1.replace("}\"", "}");
 System.out.println(finalstring);
+System.out.println("Jai Shiva");
 try (FileWriter file = new FileWriter("C:\\Home\\Learn\\Testing\\SDET\\project\\JsonJava\\SingleJson.json")) {
 	file.write(finalstring);
 	
